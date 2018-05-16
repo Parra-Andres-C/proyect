@@ -12,19 +12,15 @@ import java.util.Scanner;
  * @author Parra G
  */
 public class Usuario {
-    private String m_usuario, m_contrasena, m_nombre, m_apellido, m_Uni, m_nacion, m_genero, m_correo;
+    private String m_usuario, m_contrasena, m_nombre, m_apellido, m_Uni, m_nacion, m_correo;
 
-    public Usuario(){  
-    };
-    
-    public Usuario(String m_usuario, String m_contrasena, String m_nombre, String m_apellido, String m_Uni, String m_nacion, String m_genero, String m_correo) {
+    public Usuario(String m_usuario, String m_contrasena, String m_nombre, String m_apellido, String m_Uni, String m_nacion, String m_correo) {
         this.m_usuario = m_usuario;
         this.m_contrasena = m_contrasena;
         this.m_nombre = m_nombre;
         this.m_apellido = m_apellido;
         this.m_Uni = m_Uni;
         this.m_nacion = m_nacion;
-        this.m_genero = m_genero;
         this.m_correo = m_correo;
     }
 
@@ -50,10 +46,6 @@ public class Usuario {
 
     public String getM_nacion() {
         return m_nacion;
-    }
-
-    public String getM_genero() {
-        return m_genero;
     }
 
     public String getM_correo() {
@@ -82,10 +74,6 @@ public class Usuario {
 
     public void setM_nacion(String m_nacion) {
         this.m_nacion = m_nacion;
-    }
-
-    public void setM_genero(String m_genero) {
-        this.m_genero = m_genero;
     }
 
     public void setM_correo() {
